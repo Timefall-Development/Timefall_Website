@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="timefall.dev" id="4dd6ec99-c8df-4b07-ae8b-7cc58e8b539a" port="22" nameFormat="DESCRIPTIVE" username="Kluzzio" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
