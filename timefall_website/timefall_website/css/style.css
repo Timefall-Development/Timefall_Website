@@ -175,13 +175,14 @@ section{
 }
 
 .banner {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
     display: flex;
     align-items: center;
     justify-content: center
 }
 
 .banner .parlor {
-    margin-top: 8rem;
     height: auto !important;
     min-height: 0;
     width: 800px;
@@ -191,14 +192,13 @@ section{
 }
 
 .banner .text {
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 2rem;
+    padding-left: 2rem;
     color: silver;
 }
 
 .banner .parlor:hover {
     border: 5px solid var(--main-color);
-    width: 820px;
 }
 
 .footer{
@@ -307,11 +307,54 @@ section{
     color:#fff;
 }
 
-.review .box-container .box .stars i{
-    font-size: 1.5rem;
-    color:var(--main-color);
+.info .box-container{
+    display: grid;
+    gap:.5rem;
+    padding-bottom: .5rem;
 }
 
+.info .box-container .box{
+    border:var(--border);
+    text-align: center;
+    padding:3rem 0;
+}
+
+.info .box-container .box .share {
+    padding:1rem 0;
+}
+
+.info .box-container .box .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.info .box-container .box .share a:hover{
+    background-color: var(--main-color);
+}
+
+.info .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.9;
+    color:#ccc;
+    padding:1rem 0;
+}
+
+.info .box-container .box .user{
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+}
+
+.info .box-container .box h3{
+    font-size: 2rem;
+    color:#fff;
+}
 
 /* media queries  */
 @media (max-width:991px){
@@ -363,6 +406,14 @@ section{
     }
 
     .welcome .content p{
+        font-size: 1.5rem;
+    }
+
+    .banner .parlor {
+        width: 400px;
+    }
+
+    .banner .text {
         font-size: 1.5rem;
     }
 
